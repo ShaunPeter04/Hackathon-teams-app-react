@@ -28,7 +28,7 @@ const AddTeam = () => {
 
     const readValue = () => {
         console.log(input)
-        axios.post("http://localhost:3000/add-team").then(
+        axios.post("http://localhost:3000/add-team", input).then(
 
             (response) => {
                 console.log(response.data)
