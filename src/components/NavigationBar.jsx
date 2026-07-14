@@ -28,7 +28,7 @@ const NavigationBar = () => {
                             </li>
 
                             <li className="nav-item">
-                                <Link className="btn btn-dark btn-sm px-3 py-2 fw-medium" to="/">
+                                <Link className="btn btn-dark btn-sm px-3 py-2 fw-medium" to="/view">
                                     View Teams
                                 </Link>
                             </li>
